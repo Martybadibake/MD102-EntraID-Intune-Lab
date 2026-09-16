@@ -73,31 +73,34 @@ Configuration de l'inscription automatique MDM. Diagnostic d'un cas où le poste
 
 10. Profil de configuration d'appareil
 Création et attribution d'un profil de restriction d'appareil ciblé par groupe de sécurité, avec validation avant/après sur le poste.
+<img width="1895" height="918" alt="019-Restriction-profil-appareil" src="https://github.com/user-attachments/assets/66a6401b-6df6-498b-9c10-3fd8e5d18461" />
+
+11. Politique de conformité des appareils
+Définition de critères de conformité tels que la version minimale de Windows et la présence de Microsoft Defender Antivirus, puis liaison avec Conditional Access
 <img width="1879" height="680" alt="020-politique-de-conformite" src="https://github.com/user-attachments/assets/d4b2afaa-7612-49ab-ab37-c8a6ea342720" />
 
-11. MFA via l'accès conditionnel
-Création d'une politique Conditional Access exigeant la MFA pour l'accès à Microsoft 365 et validation du parcours utilisateur.
+12. Chiffrement BitLocker géré par Intune
+Déploiement d'une politique BitLocker avec sauvegarde de la clé de récupération dans Entra ID et validation du chiffrement.
+<img width="1121" height="569" alt="023-Bit-Locker" src="https://github.com/user-attachments/assets/f8b142f7-67e4-4354-a7e3-d9032fecbd7a" />
 
-12. Réinitialisation de mot de passe en libre-service — SSPR
-Configuration de Self-Service Password Reset, activation des méthodes d'authentification et test du parcours de
-réinitialisation.
-13. Politique de conformité des appareils
-Définition de critères de conformité tels que la version minimale de Windows et la présence de Microsoft Defender
-Antivirus, puis liaison avec Conditional Access
-14. Chiffrement BitLocker géré par Intune
-Déploiement d'une politique BitLocker avec sauvegarde de la clé de récupération dans Entra ID et validation du
-chiffrement.
-15. Déploiement d'une application Microsoft 365
+13. Déploiement d'une application Microsoft 365
 Configuration et déploiement obligatoire de Microsoft 365 Apps en 64 bits avec suivi jusqu'au succès.
-16. Déploiement Windows Autopilot
-Collecte du Hardware ID avec Get-WindowsAutoPilotInfo.ps1, enregistrement du matériel, création du profil de
-déploiement piloté par l'utilisateur et validation du scénario complet jusqu'au bureau Windows.
-17. Microsoft Defender for Endpoint
-Déploiement de stratégies de sécurité et d'antivirus via Intune et comparaison de Windows Security entre un poste
-géré et un poste non géré.
-18. Group Policy Analytics
-Export d'une GPO depuis Active Directory, analyse avec Group Policy Analytics et identification des paramètres
-pouvant être migrés vers une gestion moderne Intune.
+<img width="1873" height="935" alt="024-Application" src="https://github.com/user-attachments/assets/60636f3f-a18e-4e16-b689-6068493f0a1c" />
+
+14. Déploiement Windows Autopilot
+Collecte du Hardware ID avec Get-WindowsAutoPilotInfo.ps1, enregistrement du matériel, création du profil de déploiement piloté par l'utilisateur et validation du scénario complet jusqu'au bureau Windows.
+<img width="1662" height="754" alt="025-A-autopilot" src="https://github.com/user-attachments/assets/610ea88c-54ab-439d-b96b-179f61e04ef0" />
+<img width="1655" height="540" alt="025-B-autopilot" src="https://github.com/user-attachments/assets/89e4ee08-a60a-4e1f-9c33-2ff28a47607c" />
+
+
+15 Microsoft Defender for Endpoint
+Déploiement de stratégies de sécurité et d'antivirus via Intune et comparaison de Windows Security entre un poste géré et un poste non géré.
+
+16. Group Policy Analytics
+Export d'une GPO depuis Active Directory, analyse avec Group Policy Analytics et identification des paramètres pouvant être migrés vers une gestion moderne Intune.
+
+<img width="1859" height="823" alt="028-analyse-gpo-intune" src="https://github.com/user-attachments/assets/3da308bb-1732-46ee-86fb-7e372da55378" />
+<img width="1804" height="857" alt="029-Analyse-Default-GPO" src="https://github.com/user-attachments/assets/e201b26a-cf58-4871-83db-965727af51f7" />
 
 Compétences démontrées
 
