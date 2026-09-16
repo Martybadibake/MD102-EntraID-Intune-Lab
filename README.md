@@ -34,6 +34,11 @@ Création et préparation du laboratoire : tenant Microsoft 365, Entra ID, Intun
 <img width="1908" height="603" alt="003-tenant-entra-ID" src="https://github.com/user-attachments/assets/bdea57e5-9623-4b52-a542-4246133691d3" />
 2. Création des utilisateurs et des groupes
 Création des comptes utilisateurs dans Entra ID depuis le portail et avec PowerShell / Microsoft Graph. Création de groupes de sécurité pour les licences, politiques, applications et appareils.
+<img width="1609" height="562" alt="004-User-GID" src="https://github.com/user-attachments/assets/82b02b40-e94c-4d70-8d79-8835b67575b9" />
+<img width="1448" height="322" alt="006-ps-creation-user" src="https://github.com/user-attachments/assets/fd01876c-58ba-4684-8e36-9c586cc22966" />
+<img width="1448" height="824" alt="007-creation-group" src="https://github.com/user-attachments/assets/5d47e462-e1dc-4e4f-9237-8bb1ef4821de" />
+<img width="1470" height="956" alt="010-ps-creation-group" src="https://github.com/user-attachments/assets/296b09dc-3663-43ab-9d51-fc4497c5dbf8" />
+<img width="1863" height="924" alt="011-Attribution-licences" src="https://github.com/user-attachments/assets/d4a453fb-2828-494a-8d89-81a6005254b1" />
 3. Rôles RBAC et licences
 Mise en œuvre du principe du moindre privilège avec des rôles tels que Administrateur des utilisateurs et Administrateur du support technique. Attribution de licences individuellement puis à travers un groupe.
 4. Collaboration externe — Entra B2B
