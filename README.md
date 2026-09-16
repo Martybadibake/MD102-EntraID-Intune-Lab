@@ -62,6 +62,10 @@ Déploiement du contrôleur de domaine, installation et configuration de Microso
 
 7. Jonction d'un appareil à Microsoft Entra ID
 Jonction d'un poste Windows 11 à Entra ID et validation avec dsregcmd /status.
+<img width="1327" height="798" alt="017-A-Jonction-Appareil-W11" src="https://github.com/user-attachments/assets/779a934f-5cf7-498c-986d-69c3755746e3" />
+<img width="1283" height="489" alt="017-C-Jonction" src="https://github.com/user-attachments/assets/40b48d3d-2196-439c-82fb-faa423b35804" />
+<img width="1156" height="806" alt="017-B-Jonction" src="https://github.com/user-attachments/assets/964af035-0072-464d-9e1e-c1ca9d620a39" />
+
 8. Inscription automatique dans Microsoft Intune
 Configuration de l'inscription automatique MDM. Diagnostic d'un cas où le poste était joint à Entra ID mais n'était pas
 géré dans Intune, puis résolution par resynchronisation manuelle du compte professionnel
