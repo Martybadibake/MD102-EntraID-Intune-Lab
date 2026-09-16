@@ -59,6 +59,7 @@ Déploiement du contrôleur de domaine, installation et configuration de Microso
 <img width="1681" height="522" alt="016-Synchro-entra-srv" src="https://github.com/user-attachments/assets/5ee9215a-c311-49cc-9f21-7d83ad59ac9d" />
 <img width="1470" height="956" alt="0112222-Synchronisation-entra-srv" src="https://github.com/user-attachments/assets/543fac93-58de-41d1-93c6-2fdff7cf14e7" />
 
+
 7. Jonction d'un appareil à Microsoft Entra ID
 Jonction d'un poste Windows 11 à Entra ID et validation avec dsregcmd /status.
 8. Inscription automatique dans Microsoft Intune
