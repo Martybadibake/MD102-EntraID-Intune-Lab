@@ -38,11 +38,15 @@ Création des comptes utilisateurs dans Entra ID depuis le portail et avec Power
 <img width="1448" height="322" alt="006-ps-creation-user" src="https://github.com/user-attachments/assets/fd01876c-58ba-4684-8e36-9c586cc22966" />
 <img width="1448" height="824" alt="007-creation-group" src="https://github.com/user-attachments/assets/5d47e462-e1dc-4e4f-9237-8bb1ef4821de" />
 <img width="1470" height="956" alt="010-ps-creation-group" src="https://github.com/user-attachments/assets/296b09dc-3663-43ab-9d51-fc4497c5dbf8" />
-<img width="1863" height="924" alt="011-Attribution-licences" src="https://github.com/user-attachments/assets/d4a453fb-2828-494a-8d89-81a6005254b1" />
 3. Rôles RBAC et licences
 Mise en œuvre du principe du moindre privilège avec des rôles tels que Administrateur des utilisateurs et Administrateur du support technique. Attribution de licences individuellement puis à travers un groupe.
+<img width="1863" height="924" alt="011-Attribution-licences" src="https://github.com/user-attachments/assets/d4a453fb-2828-494a-8d89-81a6005254b1" />
+<img width="1892" height="929" alt="012-Attribution-Roles" src="https://github.com/user-attachments/assets/728fb654-0415-4ee4-b82b-1bb6219ca18d" />
 4. Collaboration externe — Entra B2B
 Invitation d'un utilisateur externe, validation de l'acceptation de l'invitation et configuration de la gouvernance des invités.
+
+
+
 5. Groupe dynamique basé sur les attributs
 Création d'une règle d'appartenance dynamique basée sur un attribut utilisateur, puis validation de l'ajout automatique d'un membre après modification de son attribut.
 6. Synchronisation hybride avec Microsoft Entra Connect
