@@ -1,3 +1,4 @@
+<img width="1908" height="603" alt="003-tenant-entra-ID" src="https://github.com/user-attachments/assets/bdea57e5-9623-4b52-a542-4246133691d3" />
 Déploiement d'une infrastructure de gestion moderne des terminaux
 
 Microsoft Entra ID / Microsoft Intune
