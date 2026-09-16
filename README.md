@@ -81,6 +81,7 @@ Définition de critères de conformité tels que la version minimale de Windows 
 
 12. Chiffrement BitLocker géré par Intune
 Déploiement d'une politique BitLocker avec sauvegarde de la clé de récupération dans Entra ID et validation du chiffrement.
+<img width="1858" height="576" alt="022-securite-p-terminaison" src="https://github.com/user-attachments/assets/d7b07ae2-6f36-43b6-baac-083ccf376524" />
 <img width="1121" height="569" alt="023-Bit-Locker" src="https://github.com/user-attachments/assets/f8b142f7-67e4-4354-a7e3-d9032fecbd7a" />
 
 13. Déploiement d'une application Microsoft 365
