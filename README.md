@@ -67,9 +67,8 @@ Jonction d'un poste Windows 11 à Entra ID et validation avec dsregcmd /status.
 <img width="1156" height="806" alt="017-B-Jonction" src="https://github.com/user-attachments/assets/964af035-0072-464d-9e1e-c1ca9d620a39" />
 
 8. Inscription automatique dans Microsoft Intune
-Configuration de l'inscription automatique MDM. Diagnostic d'un cas où le poste était joint à Entra ID mais n'était pas
+Configuration de l'inscription automatique MDM. Diagnostic d'un cas où le poste était joint à Entra ID mais n'était pas géré dans Intune, puis résolution par resynchronisation manuelle du compte professionnel 
 <img width="1888" height="880" alt="018-B-intune" src="https://github.com/user-attachments/assets/ae5186fe-46b5-482b-92b4-554fe9ce699d" />
-géré dans Intune, puis résolution par resynchronisation manuelle du compte professionnel
 <img width="1860" height="549" alt="018-Inscription-intune" src="https://github.com/user-attachments/assets/f41e1c42-58aa-4f1a-8f2c-1074383c2671" />
 
 10. Profil de configuration d'appareil
