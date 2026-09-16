@@ -121,33 +121,21 @@ Compétences démontrées
 
 Défi technique rencontré
 
-L'un des principaux défis rencontrés durant le laboratoire concernait l'inscription automatique d'un poste Windows
-dans Microsoft Intune.
-Le poste était correctement joint à Microsoft Entra ID, ce qui pouvait être vérifié avec dsregcmd /status. Cependant,
-l'appareil n'apparaissait pas immédiatement comme appareil géré dans Intune.
-L'analyse a permis d'identifier un problème lié à l'ordre de configuration de l'inscription automatique MDM : la
-jonction de l'appareil avait eu lieu avant que la configuration de l'inscription automatique soit correctement
-appliquée.
-La résolution a nécessité une resynchronisation manuelle du compte professionnel sur le poste afin de relancer le
-processus d'inscription.
-Cette expérience m'a permis de comprendre l'importance de vérifier méthodiquement les dépendances entre les
-services et d'utiliser dsregcmd /status comme outil de diagnostic avant de me fier uniquement à l'interface
-graphique.
+L'un des principaux défis rencontrés durant le laboratoire concernait l'inscription automatique d'un poste Windows dans Microsoft Intune.
+Le poste était correctement joint à Microsoft Entra ID, ce qui pouvait être vérifié avec dsregcmd /status. Cependant, l'appareil n'apparaissait pas immédiatement comme appareil géré dans Intune.
+L'analyse a permis d'identifier un problème lié à l'ordre de configuration de l'inscription automatique MDM : la jonction de l'appareil avait eu lieu avant que la configuration de l'inscription automatique soit correctement appliquée.
+La résolution a nécessité une resynchronisation manuelle du compte professionnel sur le poste afin de relancer le processus d'inscription.
+Cette expérience m'a permis de comprendre l'importance de vérifier méthodiquement les dépendances entre les services et d'utiliser dsregcmd /status comme outil de diagnostic avant de me fier uniquement à l'interface graphique.
 
 Ce que j'ai appris
 
-Ce projet m'a permis de comprendre que la gestion moderne des terminaux repose sur l'intégration de plusieurs
-composants : identité, inscription, configuration, sécurité, applications, déploiement, conformité et administration.
-J'ai également développé une meilleure compréhension de la différence entre une administration traditionnelle
-basée sur Active Directory et GPO et une gestion moderne basée sur Entra ID, Intune, Conditional Access, Autopilot
-et Defender.
-Le laboratoire m'a permis de mettre en pratique une approche de sécurité basée sur le principe Zero Trust en
-combinant identité, MFA, conformité des appareils et politiques d'accès conditionnel.
+Ce projet m'a permis de comprendre que la gestion moderne des terminaux repose sur l'intégration de plusieurs composants : identité, inscription, configuration, sécurité, applications, déploiement, conformité et administration.
+J'ai également développé une meilleure compréhension de la différence entre une administration traditionnelle basée sur Active Directory et GPO et une gestion moderne basée sur Entra ID, Intune, Conditional Access, Autopilot et Defender.
+Le laboratoire m'a permis de mettre en pratique une approche de sécurité basée sur le principe Zero Trust en combinant identité, MFA, conformité des appareils et politiques d'accès conditionnel.
 
 Conclusion
 
-Ce projet m'a permis de mettre en pratique les principaux concepts de la gestion moderne des terminaux Microsoft
-dans le cadre de ma préparation à la certification MD-102.
+Ce projet m'a permis de mettre en pratique les principaux concepts de la gestion moderne des terminaux Microsoft dans le cadre de ma préparation à la certification MD-102.
 L'environnement couvre l'ensemble du cycle de gestion moderne : Identité - Inscription - Configuration - Sécurité - Applications - Déploiement - Conformité - Administration.
 Les différents scénarios réalisés m'ont permis de développer des compétences pratiques en Microsoft Entra ID, Microsoft Intune, Windows Autopilot, Microsoft Entra Connect, Conditional Access, BitLocker, Microsoft Defender, PowerShell et Microsoft Graph.
 Le projet m'a également permis de développer une approche de dépannage basée sur l'analyse des dépendances entre les différents services plutôt que sur la simple configuration des interfaces graphiques
