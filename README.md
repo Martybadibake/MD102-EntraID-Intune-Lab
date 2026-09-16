@@ -44,11 +44,10 @@ Mise en œuvre du principe du moindre privilège avec des rôles tels que Admini
 <img width="1892" height="929" alt="012-Attribution-Roles" src="https://github.com/user-attachments/assets/728fb654-0415-4ee4-b82b-1bb6219ca18d" />
 4. Collaboration externe — Entra B2B
 Invitation d'un utilisateur externe, validation de l'acceptation de l'invitation et configuration de la gouvernance des invités.
-
-
-
+<img width="1527" height="798" alt="013-Invitation-B2B" src="https://github.com/user-attachments/assets/ec5e1bb8-cdae-45d9-93ff-b6fd841b5b95" />
 5. Groupe dynamique basé sur les attributs
 Création d'une règle d'appartenance dynamique basée sur un attribut utilisateur, puis validation de l'ajout automatique d'un membre après modification de son attribut.
+
 6. Synchronisation hybride avec Microsoft Entra Connect
 Déploiement du contrôleur de domaine, installation et configuration de Microsoft Entra Connect avec synchronisation des identités et validation de la remontée des comptes vers Entra ID.
 7. Jonction d'un appareil à Microsoft Entra ID
