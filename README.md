@@ -29,6 +29,7 @@ PowerShell	Administration et automatisation
 
 1. Préparation de l'infrastructure de laboratoire
 Création et préparation du laboratoire : tenant Microsoft 365, Entra ID, Intune, utilisateurs, groupes, licences, infrastructure locale Windows, Active Directory, DNS, poste Windows 11 et virtualisation
+<img width="1375" height="913" alt="002-doc-environement-de-virtualisation" src="https://github.com/user-attachments/assets/58d82b40-aec1-4e4f-bb2c-020ac958150a" />
 
 2. Création des utilisateurs et des groupes
 Création des comptes utilisateurs dans Entra ID depuis le portail et avec PowerShell / Microsoft Graph. Création de groupes de sécurité pour les licences, politiques, applications et appareils.
