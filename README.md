@@ -93,9 +93,10 @@ Collecte du Hardware ID avec Get-WindowsAutoPilotInfo.ps1, enregistrement du mat
 <img width="1662" height="754" alt="025-A-autopilot" src="https://github.com/user-attachments/assets/610ea88c-54ab-439d-b96b-179f61e04ef0" />
 <img width="1655" height="540" alt="025-B-autopilot" src="https://github.com/user-attachments/assets/89e4ee08-a60a-4e1f-9c33-2ff28a47607c" />
 
-
 15 Microsoft Defender for Endpoint
-Déploiement de stratégies de sécurité et d'antivirus via Intune et comparaison de Windows Security entre un poste géré et un poste non géré.
+Déploiement de stratégies de sécurité et d'antivirus via Intune , et protection mobile 
+<img width="1901" height="878" alt="027-Configuration-securité" src="https://github.com/user-attachments/assets/c4db8c2d-32e5-418c-94bc-d58a32d91269" />
+<img width="1910" height="938" alt="026-politique-protection-mobilepng" src="https://github.com/user-attachments/assets/97ac2919-fcc5-417f-b63b-6b7beaebaf9d" />
 
 16. Group Policy Analytics
 Export d'une GPO depuis Active Directory, analyse avec Group Policy Analytics et identification des paramètres pouvant être migrés vers une gestion moderne Intune.
