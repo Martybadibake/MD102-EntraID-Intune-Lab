@@ -72,12 +72,12 @@ Configuration de l'inscription automatique MDM. Diagnostic d'un cas où le poste
 <img width="1860" height="549" alt="018-Inscription-intune" src="https://github.com/user-attachments/assets/f41e1c42-58aa-4f1a-8f2c-1074383c2671" />
 
 10. Profil de configuration d'appareil
-Création et attribution d'un profil de restriction d'appareil ciblé par groupe de sécurité, avec validation avant/après
-sur le poste.
+Création et attribution d'un profil de restriction d'appareil ciblé par groupe de sécurité, avec validation avant/après sur le poste.
+<img width="1879" height="680" alt="020-politique-de-conformite" src="https://github.com/user-attachments/assets/d4b2afaa-7612-49ab-ab37-c8a6ea342720" />
 
 11. MFA via l'accès conditionnel
-Création d'une politique Conditional Access exigeant la MFA pour l'accès à Microsoft 365 et validation du parcours
-utilisateur.
+Création d'une politique Conditional Access exigeant la MFA pour l'accès à Microsoft 365 et validation du parcours utilisateur.
+
 12. Réinitialisation de mot de passe en libre-service — SSPR
 Configuration de Self-Service Password Reset, activation des méthodes d'authentification et test du parcours de
 réinitialisation.
