@@ -68,25 +68,29 @@ Jonction d'un poste Windows 11 à Entra ID et validation avec dsregcmd /status.
 
 8. Inscription automatique dans Microsoft Intune
 Configuration de l'inscription automatique MDM. Diagnostic d'un cas où le poste était joint à Entra ID mais n'était pas
+<img width="1888" height="880" alt="018-B-intune" src="https://github.com/user-attachments/assets/ae5186fe-46b5-482b-92b4-554fe9ce699d" />
 géré dans Intune, puis résolution par resynchronisation manuelle du compte professionnel
-9. Profil de configuration d'appareil
+<img width="1860" height="549" alt="018-Inscription-intune" src="https://github.com/user-attachments/assets/f41e1c42-58aa-4f1a-8f2c-1074383c2671" />
+
+10. Profil de configuration d'appareil
 Création et attribution d'un profil de restriction d'appareil ciblé par groupe de sécurité, avec validation avant/après
 sur le poste.
-10. MFA via l'accès conditionnel
+
+11. MFA via l'accès conditionnel
 Création d'une politique Conditional Access exigeant la MFA pour l'accès à Microsoft 365 et validation du parcours
 utilisateur.
-11. Réinitialisation de mot de passe en libre-service — SSPR
+12. Réinitialisation de mot de passe en libre-service — SSPR
 Configuration de Self-Service Password Reset, activation des méthodes d'authentification et test du parcours de
 réinitialisation.
-12. Politique de conformité des appareils
+13. Politique de conformité des appareils
 Définition de critères de conformité tels que la version minimale de Windows et la présence de Microsoft Defender
 Antivirus, puis liaison avec Conditional Access
-13. Chiffrement BitLocker géré par Intune
+14. Chiffrement BitLocker géré par Intune
 Déploiement d'une politique BitLocker avec sauvegarde de la clé de récupération dans Entra ID et validation du
 chiffrement.
-14. Déploiement d'une application Microsoft 365
+15. Déploiement d'une application Microsoft 365
 Configuration et déploiement obligatoire de Microsoft 365 Apps en 64 bits avec suivi jusqu'au succès.
-15. Déploiement Windows Autopilot
+16. Déploiement Windows Autopilot
 Collecte du Hardware ID avec Get-WindowsAutoPilotInfo.ps1, enregistrement du matériel, création du profil de
 déploiement piloté par l'utilisateur et validation du scénario complet jusqu'au bureau Windows.
 17. Microsoft Defender for Endpoint
