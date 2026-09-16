@@ -98,7 +98,6 @@ Déploiement de stratégies de sécurité et d'antivirus via Intune et comparais
 
 16. Group Policy Analytics
 Export d'une GPO depuis Active Directory, analyse avec Group Policy Analytics et identification des paramètres pouvant être migrés vers une gestion moderne Intune.
-
 <img width="1859" height="823" alt="028-analyse-gpo-intune" src="https://github.com/user-attachments/assets/3da308bb-1732-46ee-86fb-7e372da55378" />
 <img width="1804" height="857" alt="029-Analyse-Default-GPO" src="https://github.com/user-attachments/assets/e201b26a-cf58-4871-83db-965727af51f7" />
 
