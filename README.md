@@ -32,24 +32,33 @@ PowerShell	Administration et automatisation
 Création et préparation du laboratoire : tenant Microsoft 365, Entra ID, Intune, utilisateurs, groupes, licences, infrastructure locale Windows, Active Directory, DNS, poste Windows 11 et virtualisation
 <img width="1375" height="913" alt="002-doc-environement-de-virtualisation" src="https://github.com/user-attachments/assets/58d82b40-aec1-4e4f-bb2c-020ac958150a" />
 <img width="1908" height="603" alt="003-tenant-entra-ID" src="https://github.com/user-attachments/assets/bdea57e5-9623-4b52-a542-4246133691d3" />
+
 2. Création des utilisateurs et des groupes
 Création des comptes utilisateurs dans Entra ID depuis le portail et avec PowerShell / Microsoft Graph. Création de groupes de sécurité pour les licences, politiques, applications et appareils.
 <img width="1609" height="562" alt="004-User-GID" src="https://github.com/user-attachments/assets/82b02b40-e94c-4d70-8d79-8835b67575b9" />
 <img width="1448" height="322" alt="006-ps-creation-user" src="https://github.com/user-attachments/assets/fd01876c-58ba-4684-8e36-9c586cc22966" />
+<img width="1614" height="841" alt="005-GUser" src="https://github.com/user-attachments/assets/6fba3f49-5c06-4ac5-854d-be469cebbf95" />
 <img width="1448" height="824" alt="007-creation-group" src="https://github.com/user-attachments/assets/5d47e462-e1dc-4e4f-9237-8bb1ef4821de" />
 <img width="1470" height="956" alt="010-ps-creation-group" src="https://github.com/user-attachments/assets/296b09dc-3663-43ab-9d51-fc4497c5dbf8" />
+
 3. Rôles RBAC et licences
 Mise en œuvre du principe du moindre privilège avec des rôles tels que Administrateur des utilisateurs et Administrateur du support technique. Attribution de licences individuellement puis à travers un groupe.
 <img width="1863" height="924" alt="011-Attribution-licences" src="https://github.com/user-attachments/assets/d4a453fb-2828-494a-8d89-81a6005254b1" />
 <img width="1892" height="929" alt="012-Attribution-Roles" src="https://github.com/user-attachments/assets/728fb654-0415-4ee4-b82b-1bb6219ca18d" />
+
 4. Collaboration externe — Entra B2B
 Invitation d'un utilisateur externe, validation de l'acceptation de l'invitation et configuration de la gouvernance des invités.
 <img width="1527" height="798" alt="013-Invitation-B2B" src="https://github.com/user-attachments/assets/ec5e1bb8-cdae-45d9-93ff-b6fd841b5b95" />
+
 5. Groupe dynamique basé sur les attributs
 Création d'une règle d'appartenance dynamique basée sur un attribut utilisateur, puis validation de l'ajout automatique d'un membre après modification de son attribut.
+<img width="1882" height="558" alt="014-Régles-group-Dynamique" src="https://github.com/user-attachments/assets/05be6f4a-67e1-491a-9ad8-c551040f2c0f" />
 
 6. Synchronisation hybride avec Microsoft Entra Connect
 Déploiement du contrôleur de domaine, installation et configuration de Microsoft Entra Connect avec synchronisation des identités et validation de la remontée des comptes vers Entra ID.
+<img width="1681" height="522" alt="016-Synchro-entra-srv" src="https://github.com/user-attachments/assets/5ee9215a-c311-49cc-9f21-7d83ad59ac9d" />
+<img width="1470" height="956" alt="0112222-Synchronisation-entra-srv" src="https://github.com/user-attachments/assets/543fac93-58de-41d1-93c6-2fdff7cf14e7" />
+
 7. Jonction d'un appareil à Microsoft Entra ID
 Jonction d'un poste Windows 11 à Entra ID et validation avec dsregcmd /status.
 8. Inscription automatique dans Microsoft Intune
