@@ -116,7 +116,7 @@ Compétences démontrées
 • BitLocker et Microsoft Defender
 • Mobile Application Management (MAM)
 • PowerShell et Microsoft Graph
-• Group Policy Analytics et transition GPO → Intune
+• Group Policy Analytics et transition GPO - Intune
 • Diagnostic des problèmes d'inscription MDM et de synchronisation
 • Mise en oeuvre de principes Zero Trust
 
